@@ -1,5 +1,8 @@
 # Operations Root-Cause Analysis
 
+[![ci](https://github.com/Saigwe/ops-root-cause-analysis/actions/workflows/ci.yml/badge.svg)](https://github.com/Saigwe/ops-root-cause-analysis/actions/workflows/ci.yml)
+![SQL](https://img.shields.io/badge/SQL-DuckDB-yellow) ![License: MIT](https://img.shields.io/badge/license-MIT-green)
+
 When a frontline metric moves, the hard part is answering *why* quickly: which site, queue, vendor or staffing change caused it, how big the effect is, and what to do next.
 
 This project simulates 12 weeks of contacts (~50,000) for a multi-site, multi-vendor trust and safety operation, with one problem planted in the data. Four SQL queries find it without being told where to look, and a script writes the root-cause report.
