@@ -41,6 +41,10 @@ pytest
 
 The tests check that the analysis finds the planted cause at the right week, that contributions cover every segment, and that change-week detection works.
 
+## Walkthrough
+
+- [ ] 3-minute Loom walkthrough ([script ready](docs/walkthrough.md))
+
 ## Stack
 
 SQL (DuckDB, parameterised queries), Python, matplotlib, pytest.
